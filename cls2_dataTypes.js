@@ -39,3 +39,8 @@ console.log("here we got typeof NULL as OBJECT. It's a well known JS bug since 1
 console.log("\n6.Undefined -It means 'Value not Assigned'. A variable is declared, but value not assigned")
 let g
 console.log(typeof(g))
+
+console.log("\nScopes")
+console.log("1. var => global/function level")
+console.log("2 var => global/block leve{} & variable reinitialization is possible")
+console.log("3. const =>global/block level{} & reinitialization is not possible")
